@@ -1,17 +1,19 @@
 import BinarySearchTree.BinarySearchTree;
+import Hashtable.HashTable;
+
+import java.util.HashMap;
 
 public class Main {
     public static void main(String[] args) {
-         BinarySearchTree binarySearchTree = new BinarySearchTree();
-            binarySearchTree.insert(47);
-            binarySearchTree.insert(21);
-            binarySearchTree.insert(56);
-            binarySearchTree.insert(76);
-            binarySearchTree.insert(18);
-            binarySearchTree.insert(52);
-            binarySearchTree.insert(82);
-            binarySearchTree.insert(84);
+        HashTable table = new HashTable();
+        table.set("king",2);
+        table.set("donkey",43);
+        table.set("shrek",37);
+        table.set("elza",21);
+        table.printTable();
+        System.out.println(table.keys());
          System.out.println("---------------");
-        System.out.println(binarySearchTree.contains(18));
+
+
     }
 }
