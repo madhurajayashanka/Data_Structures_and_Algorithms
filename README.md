@@ -1,4 +1,4 @@
-# DataStructures_and_Algorithms
+# Data Structures and Algorithms (Java)
 
 ## This Repo includes the source codes of,
 
@@ -11,8 +11,8 @@
 7. Hashtable
 8. Recursion
 9. Sorting Algorithms
-  - Merge
-  - Quick
-  - Bubble
-  - Insertion
-  - Selection
+    - Merge
+    - Quick
+    - Bubble
+    - Insertion
+    - Selection
